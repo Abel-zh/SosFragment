@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center_vertical" >
+
+    <!-- leftImage1 -->
+
+    <ImageView
+        android:id="@+id/leftImage1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_launcher" />
+
+    <!-- leftImage2 -->
+
+    <ImageView
+        android:id="@+id/leftImage2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/leftImage1"
+        android:visibility="gone" />
+
+    <!-- 正标题 -->
+
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <!-- rightImage1 -->
+
+    <ImageView
+        android:id="@+id/rightImage1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_launcher"
+        android:visibility="gone" />
+
+    <!-- rightImage2 -->
+
+    <ImageView
+        android:id="@+id/rightImage2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/rightImage1"
+        android:visibility="gone" />
+
+</RelativeLayout>
