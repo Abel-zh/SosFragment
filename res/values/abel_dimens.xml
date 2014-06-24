@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 常规距离 -->
+    <dimen name="dimen_min">5dip</dimen>
+    <dimen name="dimen_normal">10dip</dimen>
+    <dimen name="dimen_large">15dip</dimen>
+    <dimen name="dimen_max">20dip</dimen>
+    <dimen name="size_min">14dip</dimen>
+    <dimen name="size_normal">16dip</dimen>
+    <dimen name="size_large">18dip</dimen>
+    <dimen name="size_max">20dip</dimen>
+    <dimen name="dimen_line">1dip</dimen>
+
+</resources>

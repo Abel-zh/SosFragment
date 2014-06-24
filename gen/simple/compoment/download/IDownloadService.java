@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: E:\\WorkSpace\\NaiCha\\src\\simple\\compoment\\download\\IDownloadService.aidl
+ * Original file: E:\\GitHub\\SosFragment\\src\\simple\\compoment\\download\\IDownloadService.aidl
  */
 package simple.compoment.download;
 public interface IDownloadService extends android.os.IInterface

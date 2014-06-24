@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/uploading_ly"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#b0000000" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_normal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_pop_top_btn_bg"
+            android:gravity="center"
+            android:padding="@dimen/dimen_normal"
+            android:text="@string/change_head_img"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_normal" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen_line"
+            android:background="@drawable/line" />
+
+        <TextView
+            android:id="@+id/uploading_b1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_pop_center_btn_bg"
+            android:gravity="center"
+            android:padding="@dimen/dimen_normal"
+            android:text="@string/take_photo"
+            android:textColor="@color/pop_blue_txt_color"
+            android:textSize="@dimen/size_normal" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen_line"
+            android:background="@drawable/line" />
+
+        <TextView
+            android:id="@+id/uploading_b2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_pop_center_btn_bg"
+            android:gravity="center"
+            android:padding="@dimen/dimen_normal"
+            android:text="@string/take_picture"
+            android:textColor="@color/pop_blue_txt_color"
+            android:textSize="@dimen/size_normal" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen_line"
+            android:background="@drawable/line" />
+
+        <TextView
+            android:id="@+id/uploading_b3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_pop_bot_btn_bg"
+            android:gravity="center"
+            android:padding="@dimen/dimen_normal"
+            android:text="@string/cancel_pop"
+            android:textColor="@color/pop_blue_txt_color"
+            android:textSize="@dimen/size_normal" />
+    </LinearLayout>
+
+</RelativeLayout>
